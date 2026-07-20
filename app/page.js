@@ -19,8 +19,8 @@ export default function HomePage() {
           <div className="hero-content">
             <h1>El Rincón de Gredos</h1>
             <p className="tagline">La montaña de cerca, el fuego encendido</p>
-            <Link href="/reservar" className="btn btn-accent">
-              Reserva tu rincón
+            <Link href="/contacto" className="btn btn-accent">
+              Contáctanos
             </Link>
           </div>
         </div>

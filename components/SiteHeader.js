@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_ITEMS } from "@/lib/nav";
-import { IconHome, IconBed, IconUsers, IconMessage } from "@/components/Icons";
+import { IconHome, IconBed, IconUsers, IconMail } from "@/components/Icons";
 
 const ICONS = {
   home: IconHome,
   bed: IconBed,
   users: IconUsers,
-  message: IconMessage,
+  mail: IconMail,
 };
 
 export default function SiteHeader() {

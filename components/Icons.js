@@ -51,6 +51,15 @@ export function IconMessage(props) {
   );
 }
 
+export function IconMail(props) {
+  return (
+    <svg {...base(props)}>
+      <rect x="3.5" y="5.5" width="17" height="13" rx="2" />
+      <path d="M4 6.5l8 6.5 8-6.5" />
+    </svg>
+  );
+}
+
 export function IconClock(props) {
   return (
     <svg {...base(props)}>

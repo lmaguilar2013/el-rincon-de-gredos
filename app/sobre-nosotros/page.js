@@ -1,22 +1,22 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Sobre nosotros · El Rincón de Gredos",
+  title: "Conócenos · El Rincón de Gredos",
 };
 
 export default function AboutPage() {
   return (
     <section className="section container">
-      <span className="eyebrow">Sobre nosotros</span>
+      <span className="eyebrow">Conócenos</span>
       <h1>Nuestra historia</h1>
 
       <div className="about-photo">
         <Image
-          src="/images/avatar_laura.png"
-          alt="Laura, anfitriona de El Rincón de Gredos"
+          src="/images/hotel.png"
+          alt="Fachada de piedra de El Rincón de Gredos, con jardín de lavanda"
           fill
           sizes="(min-width: 768px) 700px, 100vw"
-          style={{ objectFit: "cover", objectPosition: "top" }}
+          style={{ objectFit: "cover" }}
         />
       </div>
 

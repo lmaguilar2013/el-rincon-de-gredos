@@ -60,8 +60,8 @@ export default async function RoomDetailPage({ params }) {
           </span>
         </div>
 
-        <Link href="/reservar" className="btn btn-accent" style={{ width: "100%", textAlign: "center" }}>
-          Reservar esta habitación
+        <Link href="/contacto" className="btn btn-accent" style={{ width: "100%", textAlign: "center" }}>
+          Consultar esta habitación
         </Link>
       </section>
     </>
