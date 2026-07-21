@@ -70,6 +70,23 @@ export function IconPhoto(props) {
   );
 }
 
+export function IconPhone(props) {
+  return (
+    <svg {...base(props)}>
+      <path d="M5 4.5h3.2l1.3 4-2 1.4a11 11 0 0 0 4.6 4.6l1.4-2 4 1.3V17a2 2 0 0 1-2 2.1C10 18.5 5.5 14 4.9 8.5A2 2 0 0 1 5 4.5Z" />
+    </svg>
+  );
+}
+
+export function IconMapPin(props) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12 21s7-6.5 7-11.5a7 7 0 1 0-14 0C5 14.5 12 21 12 21Z" />
+      <circle cx="12" cy="9.5" r="2.3" />
+    </svg>
+  );
+}
+
 export function IconClock(props) {
   return (
     <svg {...base(props)}>
