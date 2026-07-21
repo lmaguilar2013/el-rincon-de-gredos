@@ -12,8 +12,9 @@ export default function RoomsPage() {
       <span className="eyebrow">Alojamiento</span>
       <h1>Nuestras habitaciones</h1>
       <p>
-        Tres habitaciones dobles, cada una con su propio carácter. Solo
-        adultos, mínimo 2 noches, check-in a partir de las 16:00.
+        Seis habitaciones dobles, dos de cada estilo. Solo adultos, mínimo 2
+        noches, check-in a partir de las 16:00. El precio sube en temporada
+        alta.
       </p>
       <div className="room-grid">
         {ROOMS.map((room) => (
@@ -32,8 +33,13 @@ export default function RoomsPage() {
               <p style={{ margin: "0 0 0.5rem", fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
                 {room.feature}
               </p>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <span className="room-card-price">desde {room.price}€/noche</span>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
+                <div>
+                  <span className="room-card-price">desde {room.priceLow}€/noche</span>
+                  <p style={{ margin: "2px 0 0", fontSize: "0.75rem", color: "var(--color-text-muted)" }}>
+                    temporada alta {room.priceHigh}€/noche
+                  </p>
+                </div>
                 <span style={{ fontSize: "0.8rem", fontWeight: 600, color: "var(--color-primary)" }}>
                   Ver detalle →
                 </span>

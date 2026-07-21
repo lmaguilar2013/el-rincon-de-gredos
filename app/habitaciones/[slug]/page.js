@@ -43,11 +43,25 @@ export default async function RoomDetailPage({ params }) {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: "0.5rem" }}>
           <h1 style={{ margin: 0 }}>{room.name}</h1>
           <span className="room-card-price" style={{ fontSize: "1.1rem" }}>
-            desde {room.price}€/noche
+            desde {room.priceLow}€/noche
           </span>
         </div>
 
         <p style={{ marginTop: "1rem" }}>{room.description}</p>
+
+        <div className="card" style={{ padding: "1rem 1.25rem", marginBottom: "1rem" }}>
+          <p style={{ margin: "0 0 0.5rem", fontSize: "0.8rem", fontWeight: 600, color: "var(--color-primary)" }}>
+            Precio por noche
+          </p>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.9rem" }}>
+            <span>Temporada baja</span>
+            <span style={{ fontWeight: 600 }}>{room.priceLow}€</span>
+          </div>
+          <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.9rem", marginTop: "0.4rem" }}>
+            <span>Temporada alta</span>
+            <span style={{ fontWeight: 600, color: "var(--color-accent)" }}>{room.priceHigh}€</span>
+          </div>
+        </div>
 
         <div className="detail-meta">
           <span style={{ display: "flex", alignItems: "center", gap: "0.4rem" }}>

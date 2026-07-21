@@ -96,7 +96,7 @@ export default function HomePage() {
                 <p style={{ margin: "0 0 0.5rem", fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
                   {room.feature}
                 </p>
-                <span className="room-card-price">desde {room.price}€/noche</span>
+                <span className="room-card-price">desde {room.priceLow}€/noche</span>
               </div>
             </Link>
           ))}
