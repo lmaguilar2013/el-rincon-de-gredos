@@ -24,8 +24,8 @@ export default function SiteHeader() {
             <Image
               src="/images/logo_seal.png"
               alt="El Rincón de Gredos"
-              width={32}
-              height={32}
+              width={48}
+              height={48}
               style={{ borderRadius: "50%" }}
             />
             El Rincón de Gredos
