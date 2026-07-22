@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_ITEMS } from "@/lib/nav";
-import { IconHome, IconBed, IconUsers, IconMail, IconPhoto } from "@/components/Icons";
+import { IconHome, IconBed, IconUsers, IconMail, IconPhoto, IconHelp } from "@/components/Icons";
 
 const ICONS = {
   home: IconHome,
@@ -12,6 +12,7 @@ const ICONS = {
   users: IconUsers,
   mail: IconMail,
   photo: IconPhoto,
+  help: IconHelp,
 };
 
 export default function SiteHeader() {

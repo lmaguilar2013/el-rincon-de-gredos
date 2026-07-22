@@ -87,6 +87,16 @@ export function IconMapPin(props) {
   );
 }
 
+export function IconHelp(props) {
+  return (
+    <svg {...base(props)}>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M9.6 9.3a2.4 2.4 0 0 1 4.6 1c0 1.6-2.2 1.8-2.2 3.4" />
+      <path d="M12 17.2v.1" />
+    </svg>
+  );
+}
+
 export function IconClock(props) {
   return (
     <svg {...base(props)}>

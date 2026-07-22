@@ -18,36 +18,42 @@ export default function ContactPage() {
         contestaremos con la disponibilidad y el precio.
       </p>
 
-      <div className="contact-details">
-        <a href="tel:+34611222333" className="contact-detail">
-          <IconPhone width={18} height={18} />
-          +34 611 222 333
-        </a>
-        <a href="mailto:hola@elrincondegredos.com" className="contact-detail">
-          <IconMail width={18} height={18} />
-          hola@elrincondegredos.com
-        </a>
-        <span className="contact-detail">
-          <IconMapPin width={18} height={18} />
-          Navaluenga, Ávila · Sierra de Gredos
-        </span>
-      </div>
+      <div className="contact-grid">
+        <div>
+          <div className="contact-details">
+            <a href="tel:+34611222333" className="contact-detail">
+              <IconPhone width={18} height={18} />
+              +34 611 222 333
+            </a>
+            <a href="mailto:hola@elrincondegredos.com" className="contact-detail">
+              <IconMail width={18} height={18} />
+              hola@elrincondegredos.com
+            </a>
+            <span className="contact-detail">
+              <IconMapPin width={18} height={18} />
+              Navaluenga, Ávila · Sierra de Gredos
+            </span>
+          </div>
 
-      <div className="map-wrapper">
-        <iframe
-          src={MAP_SRC}
-          title="Ubicación de El Rincón de Gredos en Navaluenga, Ávila"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-      </div>
+          <div className="map-wrapper">
+            <iframe
+              src={MAP_SRC}
+              title="Ubicación de El Rincón de Gredos en Navaluenga, Ávila"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
 
-      <div className="chat-note">
-        Formulario de contacto de muestra: los mensajes todavía no se envían
-        a ningún correo real, se conectará en una fase posterior.
-      </div>
+        <div>
+          <div className="chat-note">
+            Formulario de contacto de muestra: los mensajes todavía no se
+            envían a ningún correo real, se conectará en una fase posterior.
+          </div>
 
-      <ContactForm />
+          <ContactForm />
+        </div>
+      </div>
     </section>
   );
 }
