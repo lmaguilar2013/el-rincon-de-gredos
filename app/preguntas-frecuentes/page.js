@@ -8,32 +8,32 @@ const FAQS = [
   {
     question: "¿Cuál es el precio?",
     answer:
-      "Depende de la habitación y la temporada: desde 85€/noche en temporada baja hasta 160€/noche en temporada alta. Puedes ver el precio de cada habitación en la página de Habitaciones.",
+      "Depende del tipo de habitación y la temporada: Estándar desde 75€/noche (110€ en temporada alta), Superior desde 95€/noche (135€ en temporada alta) y Suite con Terraza desde 120€/noche (170€ en temporada alta). Temporada alta es julio, agosto, Navidades, Semana Santa y puentes. Añadir una 3ª persona cuesta 30€/noche más.",
   },
   {
     question: "¿Qué incluye?",
     answer:
-      "La habitación con baño privado, ropa de cama y toallas. No incluye desayuno ni actividades organizadas — de momento somos solo alojamiento.",
+      "La habitación con baño privado, ropa de cama, toallas y amenities, más acceso a las zonas comunes: salón con chimenea y Smart TV, cocina totalmente equipada para que te prepares tus propias comidas, jardín, terraza, barbacoa, lavandería y aparcamiento privado (3 plazas dentro del recinto, más espacio libre fuera). No incluye desayuno preparado ni actividades organizadas.",
   },
   {
     question: "¿Hay wifi?",
     answer:
-      "Sí, wifi gratuito en las habitaciones y zonas comunes, aunque te animamos a desconectar todo lo que puedas mientras estés con nosotros.",
+      "Sí, fibra óptica de alta velocidad y gratuita en habitaciones y zonas comunes — 150 Mbps de subida y 100 Mbps de bajada, de sobra para trabajar o hacer videollamadas.",
   },
   {
     question: "¿Aceptan mascotas?",
     answer:
-      "De momento no. El Rincón de Gredos está pensado para estancias solo de adultos, sin mascotas ni niños.",
+      "No. Al alquilarse por habitaciones individuales, no admitimos mascotas, para garantizar la tranquilidad de todos los huéspedes. Tampoco se admiten menores de 18 años: es un alojamiento exclusivo para adultos.",
   },
   {
     question: "¿Cómo reservar?",
     answer:
-      "Escríbenos desde la página de Contacto con las fechas que tienes en mente y para cuántas personas, y te confirmamos disponibilidad y precio.",
+      "Escríbenos desde la página de Contacto con las fechas que tienes en mente y para cuántas personas. El pago se realiza 100% por adelantado y de forma segura con Stripe. Cancelación gratuita hasta 14 días antes de la llegada (con menos antelación se retiene un 30%); se solicita además una fianza de 50€ por habitación, reembolsada tras el check-out.",
   },
   {
     question: "¿Qué hacer cerca?",
     answer:
-      "Estamos en pleno Valle del Tiétar, a las puertas de la Sierra de Gredos: rutas de senderismo, gargantas y piscinas naturales, pueblos con encanto alrededor y buena gastronomía serrana.",
+      "Navaluenga tiene piscinas naturales en el río Alberche a pocos minutos, rutas de senderismo hacia la Sierra de Gredos y por la ribera del Alberche, campo de golf municipal, bici de montaña, piragüismo y kayak en el embalse de El Burguillo, y buena gastronomía local: chuletón de Ávila, patatas revolconas y vinos D.O. Cebreros.",
   },
 ];
 

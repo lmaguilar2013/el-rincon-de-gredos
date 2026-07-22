@@ -12,9 +12,11 @@ export default function RoomsPage() {
       <span className="eyebrow">Alojamiento</span>
       <h1>Nuestras habitaciones</h1>
       <p>
-        Seis habitaciones dobles, dos de cada estilo. Solo adultos, mínimo 2
-        noches, check-in a partir de las 16:00. El precio sube en temporada
-        alta.
+        Seis habitaciones en tres estilos —Estándar, Superior y Suite con
+        Terraza—, dos de cada tipo. Alojamiento solo para mayores de 18
+        años, hasta 3 personas por habitación con suplemento. Mínimo 2
+        noches (3 en temporada alta y puentes), check-in a partir de las
+        16:00.
       </p>
       <div className="room-grid">
         {ROOMS.map((room) => (
