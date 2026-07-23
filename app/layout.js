@@ -1,4 +1,3 @@
-import Script from "next/script";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -22,11 +21,11 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
-        <Script
-          src="https://app.relevanceai.com/embed/chat-bubble.js"
+        <script
+          defer
           data-relevanceai-share-id={AGENT_SHARE_ID}
+          src="https://app.relevanceai.com/embed/chat-bubble.js"
           data-share-styles={AGENT_SHARE_STYLES}
-          strategy="afterInteractive"
         />
       </body>
     </html>
