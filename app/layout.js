@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <SiteFooter />
         <script
-          defer
+          type="module"
           data-relevanceai-share-id={AGENT_SHARE_ID}
           src="https://app.relevanceai.com/embed/chat-bubble.js"
           data-share-styles={AGENT_SHARE_STYLES}
