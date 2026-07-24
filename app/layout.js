@@ -22,6 +22,11 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <SiteFooter />
         <script
+          dangerouslySetInnerHTML={{
+            __html: `Object.defineProperty(document,"currentScript",{configurable:true,get:function(){return document.querySelector('script[data-relevanceai-share-id]');}});`,
+          }}
+        />
+        <script
           type="module"
           data-relevanceai-share-id={AGENT_SHARE_ID}
           src="https://app.relevanceai.com/embed/chat-bubble.js"
