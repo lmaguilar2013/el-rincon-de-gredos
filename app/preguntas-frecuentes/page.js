@@ -28,7 +28,7 @@ const FAQS = [
   {
     question: "¿Cómo reservar?",
     answer:
-      "Escríbenos desde la página de Contacto con las fechas que tienes en mente y para cuántas personas. El pago se realiza 100% por adelantado y de forma segura con Stripe. Cancelación gratuita hasta 14 días antes de la llegada (con menos antelación se retiene un 30%); se solicita además una fianza de 50€ por habitación, reembolsada tras el check-out.",
+      "Lo más rápido es hablar con nuestro asistente virtual (el icono de chat abajo a la derecha, en cualquier página): dile las fechas y para cuántas personas y te confirma disponibilidad y precio al momento. También puedes escribirnos desde la página de Contacto. El pago se realiza 100% por adelantado y de forma segura con Stripe. Cancelación gratuita hasta 14 días antes de la llegada (con menos antelación se retiene un 30%); se solicita además una fianza de 50€ por habitación, reembolsada tras el check-out.",
   },
   {
     question: "¿Qué hacer cerca?",
