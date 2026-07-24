@@ -1,20 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ROOMS } from "@/lib/rooms";
+import HeroSlideshow from "@/components/HeroSlideshow";
 
 export default function HomePage() {
   return (
     <>
       <section className="hero">
         <div className="hero-image">
-          <Image
-            src="/images/entorno.png"
-            alt="Entrada de El Rincón de Gredos, con la sierra al fondo"
-            fill
-            priority
-            sizes="100vw"
-            style={{ objectFit: "cover" }}
-          />
+          <HeroSlideshow />
           <div className="hero-overlay" />
           <div className="hero-content">
             <h1>El Rincón de Gredos</h1>
